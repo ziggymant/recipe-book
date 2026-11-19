@@ -1,31 +1,32 @@
-# RecipeBook
+# Recipe Book
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+The starting point of one of my first **Angular** projects. I set it up in **February 2017** while following **Maximilian Schwarzmüller's Angular 2 course**. I've kept it here as a record of where I started with front-end frameworks. It isn't maintained.
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+> **Note:** this repository only contains the first commit, which is the empty project created with Angular CLI. I didn't commit the course work that followed to this repository.
 
-## Code scaffolding
+## What the course project is
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+- A single-page "Recipe Book" app where you can browse recipes and see the details of each one.
+- A shopping list, where you can add a recipe's ingredients and then edit or remove them.
+- Navigation between the recipes and shopping list pages without reloading the page.
+- Forms to create and edit recipes.
+- Saving and loading data from a backend over HTTP.
 
-## Build
+## Technologies used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+- **Angular 2** and **TypeScript**
+- **Angular CLI** for creating, serving and building the project
+- **RxJS**
+- Angular's forms, HTTP and router modules
+- **Karma**, **Jasmine** and **Protractor** for testing, as set up by Angular CLI
+- **npm** and **Git**
 
-## Running unit tests
+## What I learned
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Deploying to GitHub Pages
-
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- How to create and run an Angular project with Angular CLI.
+- How a component-based front-end app is structured, with modules, components, templates and data binding.
+- How to use services and dependency injection to share data between components.
+- How to use the Angular router to build a single-page app.
+- How to build template-driven and reactive forms.
+- How to use observables (RxJS) and the HTTP client to talk to a backend.
+- How TypeScript adds types and classes on top of JavaScript.
